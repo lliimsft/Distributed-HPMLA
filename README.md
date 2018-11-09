@@ -5,10 +5,10 @@ For full documentation for Azure Machine Learning service, visit **https://aka.m
 
 Video walkthrough:
 
-[![get started video](images/yt_cover.png)](https://youtu.be/VIsXeTuW3FU)
+[`get started video`](https://youtu.be/VIsXeTuW3FU)
 
 1. Setup a Jupyter Notebook server and [install the Azure Machine Learning SDK](https://docs.microsoft.com/en-us/azure/machine-learning/service/quickstart-create-workspace-with-python).
-2. Clone [this repository](https://aka.ms/aml-notebooks).
+2. Clone [this repository](https://github.com/lliimsft/Distributed-HPMLA/).
 3. Start your notebook server.
 4. Follow the instructions in the [00.configuration](00.configuration.ipynb) notebook to create and connect to a workspace.
 5. Open and run [01.Distributed-HPMLA-with-custom-docker.ipynb](01.Distributed-HPMLA-with-custom-docker.ipynb) notebook.
