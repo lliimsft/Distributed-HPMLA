@@ -11,9 +11,12 @@ Video walkthrough:
 2. Clone [this repository](https://github.com/lliimsft/Distributed-HPMLA/).
 3. Start your notebook server.
 4. Follow the instructions in the [00.configuration](00.configuration.ipynb) notebook to create and connect to a workspace.
-5. Open and run [01.Distributed-HPMLA-with-custom-docker.ipynb](01.Distributed-HPMLA-with-custom-docker.ipynb) notebook.
-
-
+5. Open and run [01.Distributed-HPMLA-with-custom-docker](01.Distributed-HPMLA-with-custom-docker.ipynb) notebook. There are four steps for the notebooks:
+    - Download training dataset and upload to AML blob datastore
+    - Crate AML compute target (Batch AI cluster)
+    - Run data shredding task on the compute target (single instance)
+    - Run distributed HPMLA training on the compute target (multiple instances)
+    
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
